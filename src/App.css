@@ -1,38 +1,44 @@
-.App {
+/* App.css (create a new CSS file or add to existing CSS) */
+
+/* Reset default margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header */
+header {
+  background-color: #333;
+  color: white;
   text-align: center;
+  padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for the navbar */
+nav {
+  background-color: #444;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style for the navbar list */
+nav ul {
+  list-style: none;
+  display: flex; /* Use flexbox to align horizontally */
+  justify-content: center; /* Center align items horizontally */
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Style for the navbar list items */
+nav li {
+  margin: 0 1rem; /* Add spacing between navbar items */
+}
+
+/* Style for the navbar links */
+nav a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hover effect for navbar links */
+nav a:hover {
+  color: lightgray;
 }
