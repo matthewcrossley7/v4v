@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import logo from './v4v.jpg';
@@ -51,10 +52,50 @@ function Community(){
   </div>
    )
 }
-function DonationsMenu(){
-  return(<div>
+class  DonationsMenu extends Component{
+  state = {
+    data: [],
+};
+componentDidMount() {
+  // Replace with your own API key or OAuth client ID
+  const API_KEY = 'YOUR_API_KEY';
+  const SPREADSHEET_ID = 'YOUR_SPREADSHEET_ID';
+  const RANGE = 'Sheet1!A1:D10';
+
+  const API_URL = `https://sheets.googleapis.com/v4/spreadsheets/15A2Mjn1ExSq7PeJgU3k8o0FVUMm-214yyE7G2NPNs2A/values/Sheet1!A1:D10?key=AIzaSyAiEY6dXPn5CAK0mXbhFF2zAHncQ0Mvrjg`;
+
+  axios.get(API_URL)
+      .then(response => {
+          const values = response.data.values;
+          this.setState({ data: values });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+}
+render() {
+  const { data } = this.state;
+  return(
+    <div>
    <img src={pic2} alt="Logo"  style={{ width: 'auto', height: '140px' }} />
-  </div>)
+   <div>
+                <h1>Google Sheets Data</h1>
+                <table>
+                    <tbody>
+                        {data.map((row, rowIndex) => (
+                            <tr key={rowIndex}>
+                                {row.map((cellData, cellIndex) => (
+                                    <td key={cellIndex}>{cellData}</td>
+                                ))}
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+  </div>
+  
+  
+  
+  )
+}
 }
 // App component
 function WhoWeAre(){
@@ -105,3 +146,4 @@ export default function App() {
   );
 }
 
+//google api key AIzaSyAiEY6dXPn5CAK0mXbhFF2zAHncQ0Mvrjg
