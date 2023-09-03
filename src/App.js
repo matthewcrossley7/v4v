@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import logo from './v4v.jpg';
 import pic1 from './pic1.png';
 import pic2 from './pic2.png';
+import news1 from './news1.jpg';
 // import HomePage from './HomePage'; // Update the import
 // import AboutPage from './AboutPage'; // Update the import
 // import ServicesPage from './ServicesPage'; // Update the import
@@ -51,6 +52,39 @@ function Community(){
 
   </div>
    )
+}
+function News(){
+  return(
+    <div id="newstext">
+      
+      <h1>1st Sep 2023 – V4V News</h1>
+      <br />
+      <div class="container">
+      <img src={news1} alt="Logo"  style={{ width: 'auto', height: '320px' }} id="image"/>
+      <b id="text-container">Day 0, miles 0, Chester UK –  Chester send-off (Convoy 2)</b>
+        </div>
+
+      A group of men holding a flag
+      Description automatically generatedLeaving Chester on 1st September, delivering essential 4x4 utility vehicles which will be used to take fresh food packages prepared daily by the Lviv Volunteer Kitchen to feed soldiers on the front line in the North-East of the country.
+      <br />
+      <br />
+      Vehicles For Victory had an official start to this second trip at midday from outside The Storyhouse, in front of Chester Town Hall. On this trip there are two vehicles and drivers heading for Ukraine. Ed Adams from Staffordshire is joining the expedition.
+      <br />
+      <br />
+      Thanks for all the support on the build up, especially to neighbor Nigel, took time out from his busy plumbing schedule to wave us off -  looking dashing in the T-shirt of 17th Century Ukrainian resistance fighter.
+      <br />
+      <br />
+      <b>Day 1, miles 190 today, 190 total, London W2 – Victory Services Club, overnight (Convoy 2)</b>
+
+      <br />
+      <br />
+
+
+      From Chester we drove down to Central London. The Victory Services Club, an exponent of old school service and charm, and who have given jobs to many displaced Ukrainian ladies, had kindly sponsored V4V with two beds – and am amazing breakfast, including deep fried toast - for our overnight stay, and fueling us the next morning.
+      <br />
+      <br />
+    </div>
+  )
 }
 class  DonationsMenu extends Component{
   state = {
@@ -140,6 +174,7 @@ export default function App() {
         <Route path="/whoweare" element={<WhoWeAre /> }/>
         <Route path="/donations" element={<DonationsMenu /> }/>
         <Route path="/v4vcommunity" element={<Community /> }/>
+        <Route path="/news" element={<News /> }/>
         </Routes>
       </div>
     </Router>

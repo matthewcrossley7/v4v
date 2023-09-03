@@ -26,12 +26,25 @@ nav ul {
   justify-content: center; /* Center align items horizontally */
   padding: 0;
 }
-
+.newstext{
+  margin-left:20px
+}
 /* Style for the navbar list items */
 nav li {
   margin: 0 1rem; /* Add spacing between navbar items */
 }
-
+#image {
+    max-width: 50%; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+#text-container {
+    padding-left: 20px; /* Add some spacing between the image and text */
+}
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items (image and text) at the top */
+    padding: 20px; /* Add some spacing around the container */
+}
 /* Style for the navbar links */
 nav a {
   text-decoration: none;
