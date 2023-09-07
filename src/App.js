@@ -7,6 +7,7 @@ import logo from './v4v.jpg';
 import pic1 from './pic1.png';
 import pic2 from './pic2.png';
 import pic3 from './pic3.png';
+import pic4 from './pic4.jfif';
 import news1 from './news1.jpg';
 // import HomePage from './HomePage'; // Update the import
 // import AboutPage from './AboutPage'; // Update the import
@@ -57,7 +58,48 @@ function Community(){
 function News(){
   return(
     <div id="newstext">
+      <h1>Day 3:</h1>
+      <div class="container">
+      <img src={pic4} alt="Logo"  style={{ width: 'auto', height: '320px' }} id="image"/>
+
+      <b id="text-container">Day driving from near Nurnberg > near Vienna, 352 miles today; 1,145 total </b>
       
+      </div>
+       
+
+Over a long breakfast catch up with Marcio who I’d last seen 5-years ago, we discussed the still positive German attitude to Ukraine, including relevant to us two German vehicles donors who we will contact to share experience – www below. On the way out of Herzo we called at the Mercedes-Gleitze Strasse apartments where my family and I had spent six happy years up to 2009. We soon left Germany behind. In Austria we followed route of the mighty Danube eastwards. 
+
+<br />
+      <br />
+
+Main milestones en-route: 
+<br />
+<ul><li>Herzogenaurach (near Nurnberg) > Regensburg > Linz, no other large towns to note along the mighty Danube which we crossed three times > Bruck an der Leitha (near Vienna)</li> </ul>
+
+We were by now on the “rapid charge” across Europe. Both vehicles are running smoothly and easily cruising at 85pmh. Great value at £4,000 total for the pair. The only glitch of the day being a fine for not having an Austrian vinette – luckily only one vehicle was pulled up. Next time we will know to comply. 
+<br />
+      <br />
+ 
+
+Darkness came early with a heavy rainstorm as we rounded Vienna. We stopped, and via booking.com checked-in at Bruck an der Leitha, just past Vienna airport. The modes Hotel Rumpler suited our purpose of a bed and beer as it caters almost entirely for construction and maintenance workers at the industrial plants in the area.  
+
+<br />
+      <br />
+
+I worked at one such a few years back while employed in plastics production for Borealis GmbH. Whatever your point of view, plastics are all around us. As with any industrial process, our duty as engineers is to serve the needs of modern life while minimising environmental impacts. During my time at Borealis, this is exactly what I found that they did. As a community, we all need to do our bit by correctly recycling - I heard the same story a few days later in Liviv municipal waste treatment. If only people would use the bins correctly! 
+
+<br />
+      <br />
+
+Links 
+<br />
+German vehicles donors <a href="https://www.pkw.de/spendenaktion-ukraine   ">https://www.pkw.de/spendenaktion-ukraine   </a> 
+<br />
+German vehicles donors <a href="https://cartodonate.com/de   ">https://cartodonate.com/de  </a> 
+<br />
+Bruck an der Leitha <a href="www.hotel-rumpler.au   ">www.hotel-rumpler.au   </a>
+<br />
+Borealis plastics <a href="https://www.borealisgroup.com/schwechat   ">https://www.borealisgroup.com/schwechat  </a> 
       <h1>Day 2:</h1>
       <div class="container">
       <img src={pic3} alt="Logo"  style={{ width: 'auto', height: '320px' }} id="image"/>
@@ -81,9 +123,7 @@ From 3pm landing at Dover, an uneventful drive took us close to Frankfurt before
       <br />
  
 
-Two men standing in front of cars
-
-Description automatically generatedWe gratefully reached our hotel after midnight. Our room had been kindly sponsored by Marcao Bortelo, an old colleague from Siemens who’s power generation division is headquartered in the neighbouring town of Erlangen. Marcio, thanks from V4V and Ukraine! 
+We gratefully reached our hotel after midnight. Our room had been kindly sponsored by Marcao Bortelo, an old colleague from Siemens who’s power generation division is headquartered in the neighbouring town of Erlangen. Marcio, thanks from V4V and Ukraine! 
 
 <br />
       <br />
@@ -100,10 +140,10 @@ The NOVINA is the hotel of choice for Addidas sponsored Global Galactico’s. We
 
 Links 
 
-Herzo Novina https://www.novina-hotels-en.de/novina-hotel-herzogenaurach/  
+Herzo Novina <a href="https://www.novina-hotels-en.de/novina-hotel-herzogenaurach/  ">https://www.novina-hotels-en.de/novina-hotel-herzogenaurach/  </a>
 <br />
     
-Herzo Adidas story https://en.wikipedia.org/wiki/Adolf_Dassler  
+Herzo Adidas story <a href="https://en.wikipedia.org/wiki/Adolf_Dassler   ">https://en.wikipedia.org/wiki/Adolf_Dassler  </a>
 
       <h1>1st Sep 2023 – V4V News</h1>
       <br />
