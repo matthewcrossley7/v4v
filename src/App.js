@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import logo from './v4v.jpg';
 import pic1 from './pic1.png';
 import pic2 from './pic2.png';
+import pic3 from './pic3.png';
 import news1 from './news1.jpg';
 // import HomePage from './HomePage'; // Update the import
 // import AboutPage from './AboutPage'; // Update the import
@@ -57,6 +58,53 @@ function News(){
   return(
     <div id="newstext">
       
+      <h1>Day 2:</h1>
+      <div class="container">
+      <img src={pic3} alt="Logo"  style={{ width: 'auto', height: '320px' }} id="image"/>
+
+      <b id="text-container">Day and late-night drive from London > near Nurnburg, 603 miles today; 793 total</b>
+      
+      </div>
+We are taking the “southern route”, to enter Ukraine at Uzhhorod, gateway to the Carpathian Mountains (as opposed to the “direct east route” taken in July Dresden > Kadowiza > Lviv). These mountains are currently the go-to holiday destination for Ukrainian families, whose men of fighting age generally cannot leave the country (imagine that in UK!).  
+
+<br />
+      <br />
+Main milestones en-route: 
+
+London > Dover > Dunkirk > Brussels > Liege > Aachen > Colone > Koblenz > Frankfurt > Wurzburg > Herzogenaurach or “Herzo” (near Nurnberg) 
+<br />
+      <br />
+ 
+
+From 3pm landing at Dover, an uneventful drive took us close to Frankfurt before dark. We had committed to be in Hertz that night, but optimistically trusted in Google’s estimated eight hours drive time. Convoy night driving takes concentration, especially in heavy traffic round conurbations. Night driving will be unavoidable in winter - where we will think of some additional measures such as convoy lights. 
+<br />
+      <br />
+ 
+
+Two men standing in front of cars
+
+Description automatically generatedWe gratefully reached our hotel after midnight. Our room had been kindly sponsored by Marcao Bortelo, an old colleague from Siemens who’s power generation division is headquartered in the neighbouring town of Erlangen. Marcio, thanks from V4V and Ukraine! 
+
+<br />
+      <br />
+
+The NOVINA Hotel Herzo-Base is adjacent to Addidas Global HQ. The story of how not only Adidas, but also Puma, two Global sportswear brands come to be headquartered in the tiny village of Herzo is a fascinating one. They both stemmed from the Dasler family’s enterprise post-WW1. By 1925 the Dasslers were making leather Fußballschuhe (football boots) with nailed studs and track shoes with hand-forged spikes – www link below gives the full story. In brief, after a family argument, one of the brothers split off to found Puma, the other remained and built Adidas.  
+
+<br />
+      <br />
+
+The NOVINA is the hotel of choice for Addidas sponsored Global Galactico’s. We gratefully fell into bed beneath images of impossibly athletic and beautiful sports stars.  
+
+<br />
+      <br />
+
+Links 
+
+Herzo Novina https://www.novina-hotels-en.de/novina-hotel-herzogenaurach/  
+<br />
+    
+Herzo Adidas story https://en.wikipedia.org/wiki/Adolf_Dassler  
+
       <h1>1st Sep 2023 – V4V News</h1>
       <br />
       <div class="container">
