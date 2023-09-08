@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactPlayer from 'react-player'
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -9,6 +10,7 @@ import pic2 from './pic2.png';
 import pic3 from './pic3.png';
 import pic4 from './pic4.jfif';
 import news1 from './news1.jpg';
+import vid1 from './vid1.mp4'
 // import HomePage from './HomePage'; // Update the import
 // import AboutPage from './AboutPage'; // Update the import
 // import ServicesPage from './ServicesPage'; // Update the import
@@ -22,7 +24,7 @@ function Navbar() {
     <nav>
       <ul>
         <li><a href="/whoweare">Who we are</a></li>
-        <li><a href="/v4vcommunity">V4V Community</a></li>
+        <li><a href="/whatwedo">What we do</a></li>
         <li><a href="/donations">Donations Menu</a></li>
         <li><a href="/whysupport">Why support V4V</a></li>
         <li><a href="/news">News</a></li>
@@ -219,35 +221,133 @@ render() {
   )
 }
 }
+function WhatWeDo(){
+  return (
+    <div>
+      <b>Governments Can Not do Everything: “Grass-Roots” Community Actions is Vital  </b>
+      <br/>
+    
+You may have the impression that Ukraine is getting everything it needs from NATO and the allied government institutions. Such impressions are far from reality. Although Ukrainian receives huge amounts of government-government aid for which it is hugely grateful, in fact: Ukrainian families and works communities from small restaurants to large companies, Ukrainian charities, as well as the vital international non-governmental organizations including V4V, are all rallying to supply huge amounts of aid.   
+<br/>
+<br/>
+<b>Our Donations “Menu” </b>
+<br/>
+
+
+Like a food menu you choose according to taste and budget. Please visit <a href='www.v4v.donations.menu.uk'> [www.v4v.donations.menu.uk]</a> which is frequently updated with requests from our network within Ukraine. It is what they need now. Our menu is based on the Ukrainian State System for Humanitarian Aid, in two main:  
+<ul> <li>Humanitarian Aid, comprising: </li>
+<ul>
+  <li>
+One-ton 4x4 Vehicles for field ambulances, and general utility duties   </li>
+
+<li>Foodstuffs </li>
+
+<li>Sanitary and Hygienic  </li>
+
+<li>Medical Devices and Products </li>
+
+<li>Clothing and Shoes  </li>
+</ul>
+<li>Technical Aid, comprising: </li>
+
+<ul>
+<li>Ten-ton AWD Vehicles for mobile command centers and workshops </li>
+
+<li>Reconnaissance equipment  </li>
+
+<li>Communications equipment </li>
+
+<li>Other  </li>
+</ul>
+</ul>
+<b>You Get to Choose: We Will Implement Your Choice  </b>
+<br/>
+You can specify that your cash donation should be spent on particular items off the menu, and we will provide you with evidence that your donation has been spent for that purpose, and where possible follow-up information of use to which it has been put in Ukraine. 
+<br/>
+Or, you can select items off the menu, purchase them yourself according to the specific description and normally a web-link, and deliver them in person to V4V collection points described on the menu. 
+<br/>
+<br/>
+<b>Clarifications or Questions </b>
+<br/>
+In case of questions, please email our donations co-ordinator Illia@energy-cs.com Illia is originally from the southern Ukraine, and has travelled to the UK under the Humanitarian Protection Scheme. He maintains the menu and can clarify questions both on the demand side in Ukraine with requestors there, and on the supply side on what is available to buy in UK/ EU. 
+      </div>
+  )
+}
 // App component
 function WhoWeAre(){
   return (
     <div>
-      We are a community of Cheshire and Shropshire based Humanitarians, both British and Ukrainian, who want to see an end to this conflict.
-      <br />
-      <b>
-        Objective
-      </b>
-      <br />
-      Our objective is peace and an end to this conflict. We believe that we can play our small part towards this by directly providing both materialand moral support to the Ukrainian people.
-      <br />
-      Some may think that having the word “victory” in our name that we are somehow gung-ho warmongers. Nothing could be further from the case. Our objective is peace. But there can be no peace until there is victory.
-      <br />
-      <b>
-        Strategy
-      </b>
-      <br />
-      Our strategy to provide material aid is to deliver 100+ vehicles and aid carried east in those vehicles. We collect donations both in cash via the crowd funding Just Giving platform, and in kind to drop-off locations in UK, picked-up by departing vehicle convoys.[mention dination smenue – section 2
+    <b> From Cheshire, Shropshire and Beyond - United for Peace </b>
+     <br />
+ 
+Hello and welcome. We're a community from Cheshire and Shropshire, consisting of both British and Ukrainian individuals, united with a singular purpose: to bring about an end to the ongoing conflict in Ukraine. Our grass-roots community and donors can each in their own small ways take direct action to end the war. 
 
-      [Moral aid by ….. publicity in local areas??]
+<br />
       <br />
-      <b>
-        Why your Support for V4V matters?
-      </b>
-      <br />
-      direct action, efficient -> no overhead and targeted donations according to Ukraine in-country requests. Importance of Ukraine cause-> ref5d., focused tangible direct grass-roots community action]
-      <br />
-      <img src={pic1} alt="Logo"  style={{ width: 'auto', height: '140px' }} />
+
+      <b>Our Objective: Working Towards Peace - Victory for Peace </b> 
+<br />
+Let's set the record straight: Though our name includes the word "Victory," we're not advocating war. We're advocating peace. Real peace. There will be no end to the war until there is Victory. Our work will continue until The Victory.:  
+<br />
+ 
+<br />
+<b>Our Strategy: Direct Aid - Delivered </b>
+<br />
+We make a genuine impact by offering both material aid and moral support direct to the Ukrainian people: 
+
+<ul>
+  <li>Material aid. Our approach is straightforward. We're planning to send 100+ vehicles, which will also carry vital supplies directly to those affected by the conflict. These vehicles will be part of organised convoys, ensuring that your contributions reach where they are needed most. The live [www.v4v.donations.menu.uk] is regularly updated with requests from our contract network in Ukraine. It is what they need now.  </li>
+
+  <ReactPlayer playing url={vid1}
+              playing={false} 
+                height='350px'
+                width='180px'
+                controls='true'
+            />
+
+  <li>How can you get involved? It's simple. We're accepting financial donations through our crowdfunding platform <a href='https://www.justgiving.com/crowdfunding/Vehicles4Victory?utm_term=34mvMnqP3'> Just Giving</a>. We also welcome donations of goods at specified drop-off locations across the UK. </li>
+
+ 
+
+<li>Moral support. Just as each of us is “boosted” by moral support of others around us; the Ukrainian people are boosted by our demonstration of support. Willing them on to survive the challenges of war, and to push onward to Victory.</li>  
+</ul>
+
+
+
+<b>Our Approach: Efficient Direct Action - Zero Fluff </b>
+<br />
+When it comes to making a difference, we don't believe in beating around the bush. We're all about direct action—no overhead, no unnecessary expenses.  Every penny you donate goes straight to the heart of the issue, addressing specific needs identified by our Ukrainian partners and partner organizations on the ground.  Examples with recent one-minute videos that explain what the Ukrainian organizations do and the value of your support:  
+<ul>
+  <li>
+International Aid Legion, who’s work includes converting one-ton 4x4 to field ambulances, equipping them with stretcher beds and medical accessories.  They aim to provide 10 ambulances every month, depending on donations. The ambulances dramatically increase survival chances by getting the wounded to treatment within the “golden hour” when the chance of survival is greatest – video September 2023 
+</li>
+<li>Front Line Kitchens, who’s work is to prepare and deliver fresh food packages, prepared daily by, to feed front-line soldiers. This recent video explains what the Kitchens do and the value of our support – video July 2023 [in cutting preparation]  
+
+</li>
+<li>
+Angel of Life, who’s work includes collecting vehicles and funding for vehicles, channeling the vehicles where most needed. Colleting diverse other humanitarian aid, foodstuffs, etc. 
+</li>
+</ul>
+
+ 
+ 
+
+<b>Why It Matters: The Vital Cause of Ukraine </b>
+<br/>
+It's not just another headline; the situation in Ukraine is crucial, affecting the security of Europe, and the economic impacts include historically high food and fuel prices. For the  rational reasoning into why this cause is so important, have a look at our “deep dive” section and reference materials.   
+
+<br/>
+<br/>
+<b>Our Focus: Grassroots Impact </b>
+<br/>
+
+We're not about grand gestures that look good on paper but achieve little. Our work is about tangible, community-level action that brings immediate relief and long-term support to those who need it most. By aligning our strategy with the actual needs expressed by communities in Ukraine, we ensure that your donations are targeted, impactful, and meaningful. 
+
+ 
+
+So, let's pull together. Your involvement can be a game-changer in someone's life, contributing to the larger aim of peace and stability. It's community action at its most potent and direct. Join us. 
+      
+<br/><img src={pic1} alt="Logo"  style={{ width: 'auto', height: '140px' }} />
     </div>
   )
 }
@@ -260,6 +360,7 @@ export default function App() {
         <Navbar />
         <Routes>
         <Route path="/whoweare" element={<WhoWeAre /> }/>
+        <Route path="/whatwedo" element={<WhatWeDo /> }/>
         <Route path="/donations" element={<DonationsMenu /> }/>
         <Route path="/v4vcommunity" element={<Community /> }/>
         <Route path="/news" element={<News /> }/>
