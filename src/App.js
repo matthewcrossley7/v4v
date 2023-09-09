@@ -298,7 +298,7 @@ We make a genuine impact by offering both material aid and moral support direct 
 <ul>
   <li>Material aid. Our approach is straightforward. We're planning to send 100+ vehicles, which will also carry vital supplies directly to those affected by the conflict. These vehicles will be part of organised convoys, ensuring that your contributions reach where they are needed most. The live [www.v4v.donations.menu.uk] is regularly updated with requests from our contract network in Ukraine. It is what they need now.  </li>
 
-  <ReactPlayer playing url={vid1}
+  <ReactPlayer playing url='https://v4vvideo.s3.amazonaws.com/vid1.mp4'
               playing={false} 
                 height='350px'
                 width='180px'
