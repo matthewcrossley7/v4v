@@ -25,7 +25,6 @@ function Navbar() {
       <ul>
         <li><a href="/whoweare">Who we are</a></li>
         <li><a href="/whatwedo">What we do</a></li>
-        <li><a href="/donations">Donations Menu</a></li>
         <li><a href="/whysupport">Why support V4V</a></li>
         <li><a href="/news">News</a></li>
         <li><a href="/info">Info</a></li>
@@ -234,7 +233,7 @@ You may have the impression that Ukraine is getting everything it needs from NAT
 <br/>
 
 
-Like a food menu you choose according to taste and budget. Please visit <a href='www.v4v.donations.menu.uk'> [www.v4v.donations.menu.uk]</a> which is frequently updated with requests from our network within Ukraine. It is what they need now. Our menu is based on the Ukrainian State System for Humanitarian Aid, in two main:  
+Like a food menu you choose according to taste and budget. Please visit <a href='https://docs.google.com/spreadsheets/d/15A2Mjn1ExSq7PeJgU3k8o0FVUMm-214yyE7G2NPNs2A/edit#gid=145350238'>V4V donations</a>  which is frequently updated with requests from our network within Ukraine. It is what they need now. Our menu is based on the Ukrainian State System for Humanitarian Aid, in two main:  
 <ul> <li>Humanitarian Aid, comprising: </li>
 <ul>
   <li>
@@ -296,14 +295,9 @@ Let's set the record straight: Though our name includes the word "Victory," we'r
 We make a genuine impact by offering both material aid and moral support direct to the Ukrainian people: 
 
 <ul>
-  <li>Material aid. Our approach is straightforward. We're planning to send 100+ vehicles, which will also carry vital supplies directly to those affected by the conflict. These vehicles will be part of organised convoys, ensuring that your contributions reach where they are needed most. The live [www.v4v.donations.menu.uk] is regularly updated with requests from our contract network in Ukraine. It is what they need now.  </li>
+  <li>Material aid. Our approach is straightforward. We're planning to send 100+ vehicles, which will also carry vital supplies directly to those affected by the conflict. These vehicles will be part of organised convoys, ensuring that your contributions reach where they are needed most. The live <a href='https://docs.google.com/spreadsheets/d/15A2Mjn1ExSq7PeJgU3k8o0FVUMm-214yyE7G2NPNs2A/edit#gid=145350238'>V4V donations</a> is regularly updated with requests from our contract network in Ukraine. It is what they need now.  </li>
 
-  <ReactPlayer playing url='https://v4vvideo.s3.amazonaws.com/vid1.mp4'
-              playing={false} 
-                height='350px'
-                width='180px'
-                controls='true'
-            />
+
 
   <li>How can you get involved? It's simple. We're accepting financial donations through our crowdfunding platform <a href='https://www.justgiving.com/crowdfunding/Vehicles4Victory?utm_term=34mvMnqP3'> Just Giving</a>. We also welcome donations of goods at specified drop-off locations across the UK. </li>
 
@@ -319,8 +313,14 @@ We make a genuine impact by offering both material aid and moral support direct 
 When it comes to making a difference, we don't believe in beating around the bush. We're all about direct action—no overhead, no unnecessary expenses.  Every penny you donate goes straight to the heart of the issue, addressing specific needs identified by our Ukrainian partners and partner organizations on the ground.  Examples with recent one-minute videos that explain what the Ukrainian organizations do and the value of your support:  
 <ul>
   <li>
-International Aid Legion, who’s work includes converting one-ton 4x4 to field ambulances, equipping them with stretcher beds and medical accessories.  They aim to provide 10 ambulances every month, depending on donations. The ambulances dramatically increase survival chances by getting the wounded to treatment within the “golden hour” when the chance of survival is greatest – video September 2023 
+International Aid Legion, who’s work includes converting one-ton 4x4 to field ambulances, equipping them with stretcher beds and medical accessories.  They aim to provide 10 ambulances every month, depending on donations. The ambulances dramatically increase survival chances by getting the wounded to treatment within the “golden hour” when the chance of survival is greatest
 </li>
+<ReactPlayer playing url='https://v4vvideo.s3.amazonaws.com/vid1.mp4'
+              playing={false} 
+                height='350px'
+                width='180px'
+                controls='true'
+            />
 <li>Front Line Kitchens, who’s work is to prepare and deliver fresh food packages, prepared daily by, to feed front-line soldiers. This recent video explains what the Kitchens do and the value of our support – video July 2023 [in cutting preparation]  
 
 </li>
@@ -347,7 +347,7 @@ We're not about grand gestures that look good on paper but achieve little. Our w
 
 So, let's pull together. Your involvement can be a game-changer in someone's life, contributing to the larger aim of peace and stability. It's community action at its most potent and direct. Join us. 
       
-<br/><img src={pic1} alt="Logo"  style={{ width: 'auto', height: '140px' }} />
+
     </div>
   )
 }
@@ -361,7 +361,6 @@ export default function App() {
         <Routes>
         <Route path="/whoweare" element={<WhoWeAre /> }/>
         <Route path="/whatwedo" element={<WhatWeDo /> }/>
-        <Route path="/donations" element={<DonationsMenu /> }/>
         <Route path="/v4vcommunity" element={<Community /> }/>
         <Route path="/news" element={<News /> }/>
         </Routes>
