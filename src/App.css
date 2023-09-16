@@ -29,6 +29,10 @@ nav ul {
 .newstext{
   margin-left:20px
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 /* Style for the navbar list items */
 nav li {
   margin: 0 1rem; /* Add spacing between navbar items */
