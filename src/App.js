@@ -600,15 +600,15 @@ The Ukrainian partner organizations we support, and the value of their work, are
             />
 </li>
 <li>
-<u>Reactive Post,</u> who’s work includesproviding the Ukrainian artillery with mobile command centers, mobile workshops, parts and other non-lethal equipment.  Their moto is “Donate with high precision – to the Ukrainian Artillery.” [video shot and being edited]
+<u>Reactive Post,</u> who’s work includesproviding the Ukrainian artillery with mobile command centers, mobile workshops, parts and other non-lethal equipment.  Their moto is “Donate with high precision – to the Ukrainian Artillery.” 
 
   </li>
   <li>
-  <u>Angel of Life, </u>who’s work includes collecting vehicles, equipment and humanitarian aid, and channeling where most needed – their organization structure is explained in short in “what we do”[video requested from Dasha/ Earnst].
+  <u>Angel of Life, </u>who’s work includes collecting vehicles, equipment and humanitarian aid, and channeling where most needed – their organization structure is explained in short in “what we do”
 
   </li>
   <li>
-  <u>Front Line Kitchens,</u> who’s work is to prepare and deliver fresh food packagesdaily to front-line soldiers. Having spent an evening and sat round the dinner table in a forward command center, we can attest to the physical,socialand psychological sustenance of access to healthy ready front-line meals.[July video sent to Matt, needs uploading]
+  <u>Front Line Kitchens,</u> who’s work is to prepare and deliver fresh food packages daily to front-line soldiers. Having spent an evening and sat round the dinner table in a forward command center, we can attest to the physical,socialand psychological sustenance of access to healthy ready front-line meals.
 
   </li>
  </ul>
