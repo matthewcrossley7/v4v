@@ -605,7 +605,12 @@ The Ukrainian partner organizations we support, and the value of their work, are
   </li>
   <li>
   <u>Angel of Life, </u>who’s work includes collecting vehicles, equipment and humanitarian aid, and channeling where most needed – their organization structure is explained in short in “what we do”
-
+  <ReactPlayer playing url='https://v4vvideo.s3.amazonaws.com/WhatsApp+Video+2023-09-17+at+07.16.39.mp4'
+              playing={false} 
+                height='350px'
+                width='180px'
+                controls='true'
+            />
   </li>
   <li>
   <u>Front Line Kitchens,</u> who’s work is to prepare and deliver fresh food packages daily to front-line soldiers. Having spent an evening and sat round the dinner table in a forward command center, we can attest to the physical,socialand psychological sustenance of access to healthy ready front-line meals.
