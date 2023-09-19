@@ -601,7 +601,25 @@ The Ukrainian partner organizations we support, and the value of their work, are
 </li>
 <li>
 <u>Reactive Post,</u> who’s work includesproviding the Ukrainian artillery with mobile command centers, mobile workshops, parts and other non-lethal equipment.  Their moto is “Donate with high precision – to the Ukrainian Artillery.” 
+<br/>
 
+<div class="grid-container">
+<ReactPlayer class="float-child" playing url='https://v4vvideo.s3.amazonaws.com/IMG_0608_GrandInstruments_Mobile+Workshop.MP4'
+              playing={false} 
+                height='350px'
+                width='180px'
+                controls='true'
+            />
+
+              <ReactPlayer class="float-child" playing url='https://v4vvideo.s3.amazonaws.com/IMG_0607_GrandInstrucments_4x4+tool+station.MP4'
+              playing={false} 
+                height='350px'
+                width='180px'
+                controls='true'
+            />
+            
+
+            </div>
   </li>
   <li>
   <u>Angel of Life, </u>who’s work includes collecting vehicles, equipment and humanitarian aid, and channeling where most needed – their organization structure is explained in short in “what we do”
