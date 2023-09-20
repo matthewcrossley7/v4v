@@ -27,10 +27,10 @@ function Navbar() {
       <ul>
         <li><a href="/whoweare">Who we are</a></li>
         <li><a href="/whatwedo">What we do</a></li>
-        <li><a href="/whysupport">Why support V4V</a></li>
+        <li><a href="/how">How</a></li>
+        <li><a href="/why">Why</a></li>
         <li><a href="/news">News</a></li>
-        <li><a href="/info">Info</a></li>
-
+        <li><a href="/links">Links</a></li>
       </ul>
     </nav>
   );
@@ -225,11 +225,11 @@ render() {
 function WhatWeDo(){
   return (
     <div>
-      <b>Governments Can Not do Everything: “Grassroots” CommunityActions is Vital </b>
+      <b>Governments Can Not do Everything: “Grassroots” Community Actions is Vital </b>
       <br/>
 Any impression that Ukraine is getting everything it needs from NATO and the allied government institutions, is mistaken. Although Ukrainian receiveshuge amounts of Government-to-Government aid, for which it is hugely grateful, in fact,grassrootscommunity action is vital. It accounts for a huge portion of aid, encompassing anything that can be bought on eBay, from vehicles to baby-wipes.
 <br/>
-After ten years a war, and a year-and-a-half of full-scale invasion, Ukrainian grassrootsaid reserves are depleted. International response is required.V4V’s place in the “grassroots” communitysupport is explained below.
+After ten years a war, and a year-and-a-half of full-scale invasion, Ukrainian grassroot said reserves are depleted. International response is required.V4V’s place in the “grassroots” communitysupport is explained below.
 <br/>
 <u>Ukrainian Aid: Emergency Response </u>
 <ul>
@@ -246,7 +246,7 @@ After ten years a war, and a year-and-a-half of full-scale invasion, Ukrainian g
   <br/>
   <u>International “Grassroots Aid”: Ukrainian aid reserves are depleted</u>
   <li>
-  The long-established NGOs, multi-national, multi-crisis actorssuch as the Red Cross are doing great work. 
+  The long-established NGOs, multi-national, multi-crisis actors such as the Red Cross are doing great work. 
   </li>
   <li>
  	Especially-established NGOs, sprung up in response to the 2014 invasion of Ukraine and proliferated after the 2022 full-scale invasion. We at V4Vare one such especially establishedNGO.We collaborate with others who are doing the same work supported by communities in different parts of the UK. For example Pick-ups for Peace based in Edinburgh, the founding members of which have long term agricultural interests in Ukraine - see useful links.
@@ -640,7 +640,7 @@ The Ukrainian partner organizations we support, and the value of their work, are
 
 
 <br />
-<b>Why it Matters: The Waris Criticaland Winnable</b>
+<b>Why it Matters: The Waris Critical and Winnable</b>
 <br/>
 It's not just another headline; the war in Ukraine is crucial.  It affects the security of Europe, and the principles of freedom and democracy. The economic impacts of a continuing war or “frozen conflict” will include historically high food and fuel prices– see section “Why we do it, deep dive”. 
 
@@ -763,6 +763,7 @@ export default function App() {
         <Header />
         <Navbar />
         <Routes>
+        <Route path="/" element={<WhoWeAre /> }/>
         <Route path="/whoweare" element={<WhoWeAre /> }/>
         <Route path="/whatwedo" element={<WhatWeDo /> }/>
         <Route path="/v4vcommunity" element={<Community /> }/>
